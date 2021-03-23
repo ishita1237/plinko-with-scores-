@@ -6,7 +6,7 @@ const Bodies = Matter.Bodies;
  var engine,world;
 
 var particle;
-var partices = [particle];
+var particles = [particle];
 var Divisions = [];
 var plinkos = [];
 
