@@ -6,7 +6,7 @@ const Bodies = Matter.Bodies;
  var engine,world;
 
 var particle;
-var particles = [particle];
+var partices = [particle];
 var Divisions = [];
 var plinkos = [];
 
@@ -136,7 +136,7 @@ function draw() {
              
        }
    }
-}
+
 
  
 
@@ -144,7 +144,7 @@ function draw() {
      
      Divisions[k].display();
    }
-
+}
 function mousePressed()
  {
 if(gameState !== "END") 
@@ -153,3 +153,4 @@ if(gameState !== "END")
    particle = new Particle(mouseX, 50, 10, 10);
   }
 }
+
